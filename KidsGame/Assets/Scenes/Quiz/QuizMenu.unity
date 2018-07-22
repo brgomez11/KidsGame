@@ -364,6 +364,21 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 174924965}
     m_Modifications:
+    - target: {fileID: 114019279654240778, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114827121068809636, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114586477887662464, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224341363359353334, guid: bafae7187f00a724a8265ca5fa885034,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -478,9 +493,108 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1175464177031790, guid: bafae7187f00a724a8265ca5fa885034, type: 2}
+      propertyPath: m_Name
+      value: QuizAnimalsBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 114019279654240778, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114019279654240778, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114019279654240778, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1228149339}
+    - target: {fileID: 114019279654240778, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AnimalsQuizBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 114019279654240778, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227545390500842, guid: bafae7187f00a724a8265ca5fa885034, type: 2}
+      propertyPath: m_Name
+      value: QuizNumbersBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 114827121068809636, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114827121068809636, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114827121068809636, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1228149339}
+    - target: {fileID: 114827121068809636, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NumbersQuizBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 114827121068809636, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114586477887662464, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114586477887662464, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114586477887662464, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1228149339}
+    - target: {fileID: 114586477887662464, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HomeBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 114586477887662464, guid: bafae7187f00a724a8265ca5fa885034,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bafae7187f00a724a8265ca5fa885034, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1228149338 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1103534731827708, guid: bafae7187f00a724a8265ca5fa885034,
+    type: 2}
+  m_PrefabInternal: {fileID: 1228149337}
+--- !u!114 &1228149339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1228149338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3e2b211ad81194aadb673228bf2a5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1972656255 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224341363359353334, guid: bafae7187f00a724a8265ca5fa885034,
